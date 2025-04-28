@@ -97,12 +97,12 @@ impl Map {
         self.path[0]
     }
     
-    pub fn get_path_end(&self) -> (f32, f32) {
-        // Return the last point in the path
-        *self.path.last().unwrap_or(&(0.0, 0.0))
-    }
+    // pub fn get_path_end(&self) -> (f32, f32) {
+    //     // Return the last point in the path
+    //     *self.path.last().unwrap_or(&(0.0, 0.0))
+    // }
 
-    pub fn get_map_type(&self) -> MapType {
-        self.map_type
-    }
+    // pub fn get_map_type(&self) -> MapType {
+    //     self.map_type
+    // }
 }
