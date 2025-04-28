@@ -1,0 +1,10 @@
+[package]
+name = "rs-tower"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ggez = "0.9"
+glam = "0.24"
+rand = "0.8"
+hecs = "0.10" # ECS for game entities
